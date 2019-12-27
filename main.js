@@ -30,7 +30,7 @@ function setTimer(){
    n+=1
   allButtons.eq(n % size).trigger('click')
 
-},5000)
+},2000)
 }
 
 $('.window').on('mouseenter',function(){
